@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+h1{ /*box-level*/
+    background-color: rgb(191, 235, 235);
+
+    height: 300px;
+
+    width: 300px;
+
+    border: 10px solid khaki;
+
+    text-align:center;
+
+    padding: 50px 20px 50px 20px;
+
+    margin: auto;
+
+    outline: 10px;
+
+    outline: dashed aquamarine;}
+
+p{
+    text-align: center;
+    margin-top: 40px;
+}
+
+a{ /*inline-level*/
+    border-width: 1px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    padding: 5PX;
+}

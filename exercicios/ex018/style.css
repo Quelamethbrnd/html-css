@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+    background-color: rgb(248, 105, 253);
+}
+
+h1 {
+    font-size: 50px;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+p{
+    font-size: 25px;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }

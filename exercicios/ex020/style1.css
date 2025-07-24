@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:aliceblue ;
+}
+h1{
+    color: cadetblue;
+}
+a{
+    color: rgb(46, 208, 219);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: cadetblue;
+}
+a:hover{
+    color: darkcyan;
+    text-decoration: underline;
+}
+a:active{
+    color: mediumpurple;
+}

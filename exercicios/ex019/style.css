@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(224, 164, 250)
+}
+#aiai {
+    color: rgb(138, 56, 163); text-align: center; 
+    background-color: rgb(255, 255, 255);
+}
+
+.aiei {
+    color: rgb(201, 49, 137);
+}
+
+.opa {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: indigo;
+}
+
+/* id em html = # em css
+   class em html = . em css */

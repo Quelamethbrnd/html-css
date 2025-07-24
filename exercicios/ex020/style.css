@@ -1,0 +1,28 @@
+div{
+    display: inline-block;
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+div:hover{
+    background-color: cadetblue;
+}
+div#div04{
+    border: 0cap;
+    height: 0cap;
+    width: 100px;
+    text-align: center;
+}
+div#div04:hover{
+    color:red;
+}
+div#div04 > p{
+    display: none;
+}
+div#div04:hover > p{
+    display: block;
+    color: white;
+    background-color: red;
+}
