@@ -6,11 +6,13 @@
     font-weight: normal
 }
 
-@media screen and (min-width: 768px) {
-    html{
-    font-size: 16px;
+/* Evitar sobreposição da lista em telas pequenas */
+@media screen and (max-width: 600px) {
+    aside > ul {
+        columns: 1;
+    }
 }
-}
+
 
 :root{
     --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
@@ -174,13 +176,6 @@ aside > ul {
     columns: 2;
     
 }
-
-aside > ul {
-    columns: 2;
-    column-gap: 20px;
-    word-break: break-word; /* ou overflow-wrap: anywhere; */
-}
-
 
 h3 {
     font-family: var(--fonte-padrao);
