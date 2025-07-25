@@ -6,10 +6,17 @@
     font-weight: normal
 }
 
+@media screen and (min-width: 768px) {
+    html{
+    font-size: 16px;
+}
+}
+
 :root{
     --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
     --font-android:'Android', 'cursive' ;
 }
+
 
 *{
     max-width: 800px;
