@@ -160,6 +160,7 @@ aside{
 }
 
 aside > ul {
+    align-content: space-evenly;
     font-size: smaller;
     list-style-type: '\2605\00A0';
     list-style-position: inside;
