@@ -6,13 +6,6 @@
     font-weight: normal
 }
 
-/* Evitar sobreposição da lista em telas pequenas */
-@media screen and (max-width: 600px) {
-    aside > ul {
-        columns: 1;
-    }
-}
-
 
 :root{
     --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
@@ -196,4 +189,11 @@ main a{
 
 main a:hover{
     color: #43929c;
+}
+
+/* Evitar sobreposição da lista em telas pequenas */
+@media screen and (max-width: 600px) {
+    aside > ul {
+        columns: 1;
+    }
 }
