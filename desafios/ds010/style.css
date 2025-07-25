@@ -175,6 +175,13 @@ aside > ul {
     
 }
 
+aside > ul {
+    columns: 2;
+    column-gap: 20px;
+    word-break: break-word; /* ou overflow-wrap: anywhere; */
+}
+
+
 h3 {
     font-family: var(--fonte-padrao);
     color: #ffffff;
